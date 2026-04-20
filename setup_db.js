@@ -1,8 +1,8 @@
 // Setup script to run SQL schema against Supabase
 const { createClient } = require('@supabase/supabase-js');
 
-const supabaseUrl = 'https://wcaiosnydoyfshigecxj.supabase.co';
-const supabaseKey = 'sb_publishable_4Lv203RhvthvVhqUUb4z1A_ceWWkwYd';
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'YOUR_SUPABASE_URL';
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'YOUR_SUPABASE_ANON_KEY';
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
