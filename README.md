@@ -2,6 +2,9 @@
 
 > Next-Gen Digital Solutions — Built with 3D animations, real-time auth, and modern web technologies.
 
+## Developed By
+👨‍💻 **Vaibhav** (Vaibhavsonava2005)
+
 ## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
