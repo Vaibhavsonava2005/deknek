@@ -26,7 +26,7 @@ export default function LoginPage() {
 
       if (error) throw error;
 
-      router.push('/dashboard');
+      router.push('/');
     } catch (err) {
       setError(err.message || 'Failed to sign in');
     } finally {
